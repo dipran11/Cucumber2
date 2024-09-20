@@ -1,2 +1,5 @@
-package pages;public class Models {
+package pages;
+
+public class Models {
+
 }
