@@ -1,6 +1,6 @@
 package helper;
 
 public class Endpoint {
-
-    public static final  String Website_souce_demo = "https://www.saucedemo.com/v1/";
+    public static final String host_gorest = "https://gorest.co.in/public/v2/";
+    public static final String USER_GOREST = host_gorest + "users";
 }
