@@ -30,7 +30,6 @@ jobs:
       # setup chrome driver
       - name: setup-chromedriver
         uses: nanasess/setup-chromedriver@v1.7.2
-        uses: actions/checkout@v1.7.2
 
       # setup gradlew
       - name: Setup Java - Gradle
