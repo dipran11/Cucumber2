@@ -25,11 +25,11 @@ jobs:
 
       # install chrome browser
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v130
+        uses: browser-actions/setup-chrome@v17
 
       # setup chrome driver
       - name: setup-chromedriver
-        uses: nanasess/setup-chromedriver@v130
+        uses: nanasess/setup-chromedriver@v17
 
       # setup gradlew
       - name: Setup Java - Gradle
