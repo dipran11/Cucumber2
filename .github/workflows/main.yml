@@ -29,7 +29,10 @@ jobs:
 
       # setup chrome driver
       - name: setup-chromedriver
-        uses: nanasess/setup-chromedriver@v1
+        uses: browser-actions/setup-chrome@v1
+    with:
+      chrome-version: 120
+      install-chromedriver: true
 
       # setup gradlew
       - name: Setup Java - Gradle
